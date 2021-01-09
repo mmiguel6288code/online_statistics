@@ -9,7 +9,7 @@ Description
 
 Code for scalar and vector running (online) statistics and linear regression, CDF/PDF estimation from data.
 
-`View API Documentation <http://htmlpreview.github.io/?https://github.com/mmiguel6288code/statopy/blob/master/docs/statopy/statopy.html>` _
+`Class descriptions<http://htmlpreview.github.io/?https://github.com/mmiguel6288code/statopy/blob/master/docs/statopy/statopy.html>`_
 
 Note
 ====
