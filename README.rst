@@ -2,15 +2,14 @@
 statopy
 =======
 
-
-Add a short description here!
-
+Statistics and Probability processing
 
 Description
 ===========
 
-A longer description of your project goes here...
+Code for scalar and vector running (online) statistics and linear regression, CDF/PDF estimation from data.
 
+`View API Documentation <http://htmlpreview.github.io/?https://github.com/mmiguel6288code/statopy/blob/master/docs/statopy/statopy.html>` _
 
 Note
 ====
