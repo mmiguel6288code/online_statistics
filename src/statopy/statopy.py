@@ -1,6 +1,8 @@
 """ Online statistics
 Credit for scalar algorithms to John D. Cook:
+
     https://www.johndcook.com/blog/skewness_kurtosis/
+
     https://www.johndcook.com/blog/running_regression/
 
 """
@@ -325,16 +327,18 @@ class ScalarProbModel():
     Requires numpy and scipy
 
     Example:
-        from scipy.stats import expon
-        import matplotlib.pyplot as plt
-        x = expon().rvs(1000)
-        spm = ScalarProbModel(x)
-        fig = plt.figure()
-        spm.plot_cdf()
-        spm.plot_scatter()
-        fig = plt.figure()
-        spm.plot_pdf()
-        plt.show()
+        ```python
+from scipy.stats import expon
+import matplotlib.pyplot as plt
+x = expon().rvs(1000)
+spm = ScalarProbModel(x)
+fig = plt.figure()
+spm.plot_cdf()
+spm.plot_scatter()
+fig = plt.figure()
+spm.plot_pdf()
+plt.show()
+        ```
     """
     def __init__(self,xs,resolution=1000,smoothing=.1):
         n = len(xs)
